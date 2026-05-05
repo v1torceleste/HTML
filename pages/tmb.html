@@ -3,81 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitlife | TMB</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>FitLife | TMB</title>
 </head>
 <body>
+
     
-<nav>
-<a href="../index.html">Fitlife</a>
-<ul>
-    <li><a href="tmb.html">TMB</a></li>
-    <li><a href="imc.html">IMC</a></li>
-    <li><a href="water.html">Água</a></li>
-    <li><a href="sobre.html">Sobre</a></li>
-</ul>
-</nav>
+    <nav>
+        <a href="../index.html">FitLife</a>
 
-<main>
+        <ul>
+            <li><a href="tmb.html">TMB</a></li>
+            <li><a href="imc.html">IMC</a></li>
+            <li><a href="water.html">Água</a></li>
+        </ul>
+    </nav>
 
-    <section>
+
+    <main>
+        <section>
             <h1>Taxa Metabólica Basal</h1>
+
             <form>
-            <label for="gender">Gênero</label>
+                <label for="gender">Gênero</label>
                 <select id="gender">
                     <option value="male">Masculino</option>
-                    <option value="female">Feminino</option>
-                    <option value="non binary">Não Binário</option>
-                    <option value="others">Outros</option> 
+                    <option value="female" selected>Feminino</option>
                 </select>
-                    
-                <label for="biological sex">Sexo Biológico</label>
-                    <select id="biological sex">
-                    <option value="male">Masculino</option>
-                    <option value="female">Feminino</option>
 
-                </select>
-            
-            
                 <label for="weight">Peso (kg)</label>
-            <input type="number" id="weight" placeholder="Ex: 70">
-            
-            <label for="height">Altura (cm)</label>
-            <input type="number" id="height" placeholder="Ex: 175">
-            
-            <label for="age">Idade (anos)</label>
-            <input type="number" id="age" placeholder="Ex: 30">
+                <input type="number" id="weight" placeholder="Ex: 70" required>
 
-            <button>Calcular</button>
+                <label for="height">Altura (cm)</label>
+                <input type="number" id="height" placeholder="Ex: 175" required>
 
+                <label for="age">Idade (anos)</label>
+                <input type="number" id="age" placeholder="Ex: 25" required>
 
+                <button type="submit">Calcular</button>
             </form>
 
             <div>
-                <p>Gasto Calórico Basal</p>
+                <p>Gasto calórico basal:</p>
                 <h2>0000</h2>
-                <p>kcal/dia</p>
-
-
+                <p>Kcal/dia</p>
             </div>
 
-
-    </section>
-
+        </section>
 
 
-
-</main>
-
-
-
-
-
-<a href="../index.html">Voltar</a>
-
+        <a href="../index.html">Voltar</a>
+    </main>
+    
 </body>
 </html>
