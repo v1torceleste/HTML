@@ -201,9 +201,16 @@ main {
 .result-box {
     padding: 1.25rem;
     background-color: #e8f8f5;
+    padding: 1.25rem
     border-radius: 10px;
     text-align: center;
 }
+.show {
+    display: block;
+    
+}
+
+
 
 @media (max-width: 480px) {
     nav {
